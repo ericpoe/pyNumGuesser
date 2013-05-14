@@ -3,7 +3,7 @@
 from math import ceil, log
 
 lowNum = 0
-highNum = 10000000000000
+highNum = 1000
 guessCounter = 0
 depth = ceil(log(highNum - lowNum,2))
 answer = 'h'
