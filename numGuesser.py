@@ -1,3 +1,5 @@
+# A binary search number guesser
+# Uses Python3
 from math import ceil, log
 
 lowNum = 0
