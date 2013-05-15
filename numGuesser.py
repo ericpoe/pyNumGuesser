@@ -14,7 +14,7 @@ print("If I guess too high, let me know by pressing the 'h' key.")
 print("If I guess too low, let me know by pressing the 'l' key.")
 print("But if I guess correctly, let me know by pressing the 'y' key.")
 
-while guessCounter <= depth:
+while lowNum < highNum:
     if answer == 'y':
         print("Yay! I guessed it in {0} guesses!".format(guessCounter))
         break
