@@ -9,8 +9,8 @@ depth = ceil(log(highNum - lowNum, 2))  # Maximum number of guesses prediction
 answer = 'h'      # Answer from user: the guess is too high/low or correct
 mean = highNum    # The average between lowNum and highNum
 
-print("Think of a number between {0} and {1} and I will try to guess it {2} "
-      "guesses or less".format(lowNum, highNum, depth))
+print("Think of a number between {0} and {1} and I will try to guess it in "
+      "{2} guesses or less".format(lowNum, highNum, depth))
 print("If I guess too high, let me know by pressing the 'h' key.")
 print("If I guess too low, let me know by pressing the 'l' key.")
 print("But if I guess correctly, let me know by pressing the 'y' key.")
